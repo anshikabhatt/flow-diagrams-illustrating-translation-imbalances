@@ -2,7 +2,7 @@ import pandas as pd
 import plotly.graph_objects as go
 import requests
 
-# Define the API endpoint
+# Define the API 
 url = "https://en.wikipedia.org/w/api.php?action=query&list=contenttranslationstats&format=json"
 
 # Send a request to the API and retrieve the response data
