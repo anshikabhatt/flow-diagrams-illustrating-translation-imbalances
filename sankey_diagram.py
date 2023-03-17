@@ -1,8 +1,12 @@
 import pandas as pd
 import plotly.graph_objects as go
 import requests
+import plotly.io as pio
 
-# Define the API 
+# Set the default renderer to 'browser'
+pio.renderers.default = 'browser'
+
+# Define the API
 url = "https://en.wikipedia.org/w/api.php?action=query&list=contenttranslationstats&format=json"
 
 # Send a request to the API and retrieve the response data
@@ -23,8 +27,7 @@ for t in translations:
 df = pd.DataFrame(translations_list)
 
 # Define the languages of interest
-languages = ['es', 'fr', 'de', 'it', 'pt', 'Ja', 'ko', 'vi', 'zh', 'ar', 'Ro', 'Hi', 'ta', 'nl', 'sv', 'no', 'da', 'rv', 'pl', 'uk', 'cs', 'sk']
-
+languages = ['es', 'fr', 'de', 'it', 'ja', 'ko', 'zh', 'vi', 'pt', 'ar', 'hi']
 # Filter the data to exclude English and only include the languages of interest
 df_filtered = df[df['to'] != 'en']
 df_filtered = df_filtered[df_filtered['from'].isin(languages) & df_filtered['to'].isin(languages)]
@@ -48,4 +51,10 @@ fig = go.Figure(data=[go.Sankey(
 
 # Customize the layout of the Sankey diagram
 fig.update_layout(title_text="Translation flow between smaller subset of languages (excluding English)", font_size=10)
-fig.show()
+
+# Save the visualization as an HTML file
+fig.write_html("sankey_diagram.html")
+
+# Open the HTML file in browser
+import webbrowser
+webbrowser.open_new_tab('sankey_diagram.html')
