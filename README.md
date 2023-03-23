@@ -12,10 +12,10 @@ also I attempted to create another scatterplot diagram of the translation ratio 
 ## Usage
 ### To generate the Sankey diagram, follow these steps:
 
-Clone the repository.
-Install the required Python packages using pip install 
-Run the sankey_diagram.py file using python sankey_diagram.py.
-The generated Sankey diagram will be saved in the sankey_diagram.html file.
+1. Clone the repository.
+2. Install the required Python packages using pip install 
+3. Run the sankey_diagram.py file using python sankey_diagram.py.
+4. The generated Sankey diagram will be saved in the sankey_diagram.html file.
 
 ## Scatterplot Diagrams
 The scatterplot diagrams are generated using the Wikipedia API to retrieve translation data and create scatterplots to visualize the number of translations between different languages. The Python code for generating the diagrams is included in the scatterplot_diagram.py file. The project also attempted to create a scatterplot diagram of the translation ratio against the Wikipedia article count for different languages, but this was not possible due to the lack of available data.
@@ -23,10 +23,10 @@ The scatterplot diagrams are generated using the Wikipedia API to retrieve trans
 ## Usage
 To generate the scatterplot diagrams, follow these steps:
 
-Clone the repository.
-Install the required Python packages using pip install 
-Run the scatterplot_diagram.py file using python scatterplot_diagram.py.
-The generated scatterplot diagrams will be saved in the scatterplot_diagram.png file.
+1. Clone the repository.
+2. Install the required Python packages using pip install 
+3. Run the scatterplot_diagram.py file using python scatterplot_diagram.py.
+4. The generated scatterplot diagrams will be saved in the scatterplot_diagram.png file.
 
 ## Contributors
 Anshika Bhatt
