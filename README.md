@@ -4,7 +4,8 @@ This repository is my contribution to task #T331204.
 # Sankey Diagram
 Using the public Content Translation data source as a reference, I wrote Python code to generate a Sankey diagram that displays the translation relationships between several languages, such as Spanish, Italian, French, Japanese, Korean, Vietnamese, Chinese, Portuguese, Arabic, and hindi. I refined and extended the illustration to highlight additional details and intriguing imbalances or balances in translation. This is the link to the live sankey diagram.
 
-![Sankey Diagram](sankey_diagram.png.png)
+[Click here to view Sankey diagram](file:///C:/Users/Az/translation%20sankey/sankey_diagram.html)
+
 
 
 
