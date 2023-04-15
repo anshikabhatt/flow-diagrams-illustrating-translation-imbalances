@@ -19,9 +19,10 @@ also I attempted to create another scatterplot diagram of the translation ratio 
 4. The generated Sankey diagram will be saved in the sankey_diagram.html file.
 
 ## Scatterplot Diagrams
-The scatterplot diagrams are generated using the Wikipedia API to retrieve translation data and create scatterplots to visualize the number of translations between different languages. The Python code for generating the diagrams is included in the scatterplot_diagram.py file. The project also attempted to create a scatterplot diagram of the translation ratio against the Wikipedia article count for different languages, but this was not possible due to the lack of available data.
+The scatterplot diagrams are generated using the Wikipedia API to retrieve translation data and create scatterplots to visualize the number of translations between different languages. The Python code for generating the diagrams is included in the scatterplot_diagram.py file. The project also attempted to create a scatterplot diagram of the translation ratio against the Wikipedia article count for different languages the csv file provided by my mentor to visualize the relationship between the language translation ratio and the number of Wikipedia articles.
 
-
+![Translation Ratio vs Wiki Article Count](translation ratio vs wiki article count.png)
+ 
 ## Usage
 To generate the scatterplot diagrams, follow these steps:
 
