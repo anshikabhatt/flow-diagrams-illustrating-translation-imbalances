@@ -8,8 +8,7 @@ Using the public Content Translation data source as a reference, I wrote Python 
 # Scatter Plot Diagram
 Furthermore, I attempted to create a scatter plot diagram using Python code to retrieve translation data from the Wikipedia API and visualize the number of translations between different languages. The scatter plot diagrams are based on the ratio of translations from one language to another, providing a clear visualization of the relationships between various languages.
 
-also I attempted to create another scatterplot diagram of the translation ratio against the Wikipedia article count for different languages.Using the csv file provided by my mentor to visualize the relationship between the language translation ratio and the number of Wikipedia articles.
- ![Translation Ratio vs Wiki Article Count](translation ratio vs wiki article count.png)
+also I attempted to create another scatterplot diagram of the translation ratio against the Wikipedia article count for different languages.Using the csv file provided by my mentor to visualize the relationship between the language translation ratio and the number of Wikipedia articles.![Translation Ratio vs Wiki Article Count](translation ratio vs wiki article count.png)
  
 ## Usage
 ### To generate the Sankey diagram, follow these steps:
