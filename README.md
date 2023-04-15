@@ -20,6 +20,8 @@ also I attempted to create another scatterplot diagram of the translation ratio 
 
 ## Scatterplot Diagrams
 The scatterplot diagrams are generated using the Wikipedia API to retrieve translation data and create scatterplots to visualize the number of translations between different languages. The Python code for generating the diagrams is included in the scatterplot_diagram.py file. The project also attempted to create a scatterplot diagram of the translation ratio against the Wikipedia article count for different languages, but this was not possible due to the lack of available data.
+![Translation Ratio vs Wiki Article Count](translation_ratio_vs_wiki_article_count.png)
+
 
 ## Usage
 To generate the scatterplot diagrams, follow these steps:
